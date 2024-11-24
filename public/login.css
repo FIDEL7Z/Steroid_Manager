@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilo do Wrapper Principal */
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #3b82f6, #9333ea);
+}
+
+/* Cartão de Login */
+.login-card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    width: 400px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Ícone de Login */
+.icon-container {
+    margin-bottom: 20px;
+}
+
+.login-icon {
+    width: 80px;
+    height: 80px;
+}
+
+/* Título e Subtítulo */
+.app-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.subtitle {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* Botão */
+.btn-primary {
+    background: #3b82f6;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #2563eb;
+    color: #fff;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .login-card {
+        width: 90%;
+    }
+
+    .login-icon {
+        width: 60px;
+        height: 60px;
+    }
+}

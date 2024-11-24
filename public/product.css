@@ -1,0 +1,140 @@
+ * {
+        padding: 0;
+        border: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .content {
+        margin-top: 60px;
+        padding: 20px;
+    }
+
+    h4 {
+        color: #333;
+        font-size: 1.8rem;
+        font-family: 'Arial', sans-serif;
+        font-weight: 600;
+    }
+
+    form input.form-control {
+        width: 100%;
+        max-width: 250px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        border: 1px solid #ddd;
+        transition: all 0.3s ease-in-out;
+    }
+
+    form input.form-control:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+
+    form.form-product {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    p.message-error {
+        color: #FD6259;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    button.btn-product {
+        width: 100%;
+        max-width: 120px;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+    button.btn-product:hover {
+        background-color: #0056b3;
+    }
+
+    form.search {
+        display: flex;
+        margin-bottom: 30px;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .btn-secondary {
+        margin-left: 10px;
+        padding: 10px;
+        background-color: #f1f1f1;
+        color: #333;
+        border: none;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-secondary:hover {
+        background-color: #ddd;
+    }
+
+    table.table {
+        width: 100%;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    table th, table td {
+        padding: 15px;
+        text-align: left;
+        font-size: 16px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    table th {
+        background-color: #f1f1f1;
+        color: #555;
+        font-weight: 600;
+    }
+
+    table td {
+        background-color: #fff;
+    }
+
+    table tr:hover {
+        background-color: #f9f9f9;
+    }
+
+    div.action {
+        display: flex;
+        font-size: 18px;
+    }
+
+    .bi-pencil-fill {
+        color: #FFC447;
+        margin-right: 10px;
+        cursor: pointer;
+        transition: color 0.3s ease;
+    }
+
+    .bi-pencil-fill:hover {
+        color: #d2a138;
+    }
+
+    div.action button.delete {
+        background: none;
+        border: none;
+        color: #FD6259;
+        cursor: pointer;
+        font-size: 20px;
+    }
+
+    div.action button.delete:hover {
+        color: #da4a43;
+    }
