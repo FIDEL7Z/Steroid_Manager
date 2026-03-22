@@ -1,4 +1,5 @@
 # **Steroid_Manager**
+<img width="670" height="333" alt="image" src="https://github.com/user-attachments/assets/1a2eb5b3-f2b9-4617-880b-ebb6c87a023f" />
 
 **Steroid_Manager** é uma aplicação web desenvolvida para o gerenciamento eficiente de uma loja de anabolizantes e suplementos. O sistema oferece recursos que vão desde o cadastro de produtos até o acompanhamento detalhado de vendas, lucros e gastos.
 
